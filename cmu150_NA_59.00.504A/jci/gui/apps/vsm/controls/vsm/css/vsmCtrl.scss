@@ -1,0 +1,209 @@
+/* CSS Document */
+/*
+ * Numerical values that are also used in setting CSS styles programmatically
+ * NOTE: Changing these values requires matching changes in JS source file!
+ */
+
+/*
+ * End JS-matching values
+ */
+.vsmCtrl {
+  position: absolute;
+  width: 734px;
+  height: 416px;
+  left: -2px;
+  text-align: left;
+  top: 0px;
+  background: url('../images/background.png') center no-repeat;
+}
+
+.CarGraphic {
+  position: absolute;
+  width: 273px;
+  height: 255px;
+  left: 420px;
+  text-align: left;
+  top: 136px;
+  background: url('../images/Maintenance_EngineOilLevel_J78A_Blue.png') center no-repeat;
+  
+}
+
+.CarGraphic1 {
+  position: absolute;
+  width: 273px;
+  height: 255px;
+  left: 420px;
+  text-align: left;
+  top: 136px;
+  background: url('../images/Maintenance_EngineOilLevel_J78A_Umber.png') center no-repeat;
+  
+}
+
+.CarGraphic2 {
+  position: absolute;
+  width: 273px;
+  height: 255px;
+  left: 420px;
+  text-align: left;
+  top: 136px;
+  background: url('../images/Maintenance_Oil_J78A.png') center no-repeat;
+  
+}
+
+.oilLevelGraph {
+	position: absolute;
+	width: 734px;
+	height: 416px;
+	left: -2px;
+	text-align: left;
+	top : 0px;
+	background: url('../images/OilLevelGraph_BG.png') center no-repeat;
+	opacity : 1;
+	
+}
+
+
+.rightBar {
+  float:right;
+  margin-top: -370px;
+  margin-right:15px;
+  width: 28px;
+  height:370px;
+  background: url(../images/ChromeArcRight.png) 100% 100% no-repeat;
+}
+
+.capOverBar {
+	position: absolute;
+	width: 29px;
+	height: 3px;
+	left: 183px;
+	top : 177px;
+	visibility : "visible";
+	z-index:100;
+	background: url('../images/OilLevelBarCap.png') center no-repeat;
+}
+
+
+
+h3.MaxText
+{
+	position: absolute;
+	width:54px;
+	height:31px;
+	top: 209px;
+  	left: 257px;
+  	font-size: 28px;
+	text-align: left;
+  	font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  	z-index:6;
+  	color:#FFFFFF;
+  	overflow:hidden;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	white-space:wrap;
+}
+
+h3.MinText
+{
+	position: absolute;
+	width:47px;
+	height:31px;
+	text-align: left;
+	top: 303px;
+  	left: 257px;
+  	font-size: 28px;
+  	font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  	z-index:6;
+  	color:#FFFFFF;
+  	overflow:hidden;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	white-space:wrap;
+}
+
+.textline1
+{
+	position: absolute;
+	width:580px;
+	height:42px;
+	top: 13px;   
+  	left: 57px;
+  	font-size: 35px;
+  	font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  	z-index:6;
+  	color:#FFFFFF;
+  	overflow:visible;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	white-space:wrap;
+}
+
+.textline2
+{
+	position: absolute;
+	width:580px;
+	height:42px;
+	top:60px;   
+  	left:57px;
+  	font-size: 35px;
+  	font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  	z-index:6;
+  	color:#FFFFFF;
+  	overflow:visible;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	white-space:wrap;
+}
+
+
+.FuelConsumptionCtrlHiddenOpacity {
+	
+	opacity: 0;
+}
+
+.barVariation
+{
+	position:absolute;
+	margin: 0px;
+    width:29px;
+    height:189px;
+    color: #2d2d2d;
+    line-height: 125px;
+    text-align:center;
+    top:180px;
+    left:183px;
+	visibility : "visible";
+ 	background: url('../images/OilLevelBar_Blue.png') center no-repeat;
+	
+}
+
+.barVariation1
+{
+	position:absolute;
+	margin: 0px;
+    width:29px;
+    height:189px;
+    color: #2d2d2d;
+    line-height: 125px;
+    text-align:center;
+    top:180px;
+    left:183px;
+ 	background: url('../images/OilLevelBar_Umber.png') center no-repeat;
+	
+}
+
+/* .barDiv
+{
+	position:absolute;
+	margin: 0px;
+    width:29px;
+    height:10px;
+    color: #2d2d2d;
+    line-height: 125px;
+    text-align:center;
+    bottom:27px;
+    left:145px;
+	background-color: #FBB117;
+ 	z-index:9998;
+}
+ */
